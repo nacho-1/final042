@@ -1,0 +1,13 @@
+a)
+
+	1) Los atributos de la clase Usuario no siguen una convencion en el nombre. Uno esta en minuscula y el otro en
+	mayusculas.
+	2) La notificacion que recibe el usuario es un String. Esto significa que si se quisiera agregar mas notificaciones
+	habria que agregar ifs que las detecten. A la larga esto hace un codigo menos legible y mantenible.
+	3) Los atributos de las clases no estan marcados como privados. El valor por default es que quedas solo en el ambito
+	del paquete. Tener los atributos de esta manera viola el encapsulamiento.
+	
+b)
+
+	Open-Close: Debido a que el tipo de notificacion es un String, si se quisiera agregar una nueva notificacion habria
+	que modificar el codigo. Esto viola el principio open-close.
